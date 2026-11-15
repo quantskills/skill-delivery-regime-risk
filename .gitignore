@@ -1,0 +1,5 @@
+data/
+platform_logs/
+reports/cases.md
+__pycache__/
+*.pyc
