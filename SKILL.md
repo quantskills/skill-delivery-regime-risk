@@ -1,7 +1,16 @@
 ---
-name: delivery-regime-risk
+name: skill-delivery-regime-risk
 description: 当需要研究期货交易所制度事件（交割月梯度、限仓、保证金调整等带生效日期的规则）能否形成前置风险规则、构建制度事件日历、或做"提前减仓 vs 冻结基线"对照实验时，使用此 skill。覆盖规则取证→平台拉数→事件日历→统一窗口对照→误报/漏报分析→价值验收的完整流程。
 tags: [quant, futures, risk, regime, delivery]
+license: GPL-3.0-only
+metadata:
+  license: GPL-3.0-only
+  organization: QuantSkills
+  organization_url: https://github.com/quantskills
+  repository: skill-delivery-regime-risk
+  repository_url: https://github.com/quantskills/skill-delivery-regime-risk
+  project_type: skill
+  collection: futures-risk
 ---
 
 # 交割制度事件前置风险规则研究

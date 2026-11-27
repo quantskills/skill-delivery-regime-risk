@@ -1,5 +1,9 @@
 # Q5: Can Delivery-Month Regime Events Form Useful Pre-emptive Risk Rules?
 
+[简体中文](README.md) | English
+
+Original author: gedingbaod. Released with the author's authorization under [GPL-3.0-only](LICENSE). QuantSkills release maintainer: [abgyjaguo](https://github.com/abgyjaguo).
+
 **One-line conclusion**: Yes — but only for positions lingering into the delivery month. Triggering position reduction at T-1 (first trading day of the month before delivery, when margin steps from 5%→10%) saves a **median 51.4%** of margin-occupation integral versus a frozen baseline (consistent across 173/173 contracts). It does **not** protect against systemic shocks (82% of worst single-day moves occur *before* T-1).
 
 - **Commodity group**: SHFE rebar (RB) + hot-rolled coil (HC), 187 historical contracts (2009–2026)
